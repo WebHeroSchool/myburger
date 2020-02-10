@@ -1,0 +1,35 @@
+.burger{
+  display: none;
+  cursor: pointer;
+}
+.icon {
+  display: block;
+  margin-top: 5px;
+  width: 50px;
+  height: 11px;
+  background: black;
+  position: relative;
+  border-radius: 10px;
+}
+.nav {
+  padding: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  border: 2px solid grey;
+}
+.nav:hover {
+  text-decoration: underline;
+  background: Turquoise;
+   transition: 0.25s line;
+}
+
+@media (max-width: 480px) {
+  .burger {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+}
+
